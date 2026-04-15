@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/CyberBrain18/MyMavenToGradle.git'
+                git branch: 'master', url: 'https://github.com/CyberBrain18/SeleniumApp2.git'
             }
         }
 
